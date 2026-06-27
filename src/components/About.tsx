@@ -12,8 +12,8 @@ export default function About() {
           </div>
 
           <div>
-            <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-green-dark mb-6">
-              About Vrindavan Farm
+            <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark mb-6">
+              About Nannu Farm
             </h2>
             <p className="text-gray-600 leading-relaxed text-lg">
               Our cows graze freely on natural fodder, ensuring purity and vitality in every drop
@@ -24,7 +24,7 @@ export default function About() {
             </p>
             <a
               href="#"
-              className="inline-flex items-center gap-2 mt-6 text-farm-green font-semibold hover:text-farm-green-dark transition-colors"
+              className="inline-flex items-center gap-2 mt-6 text-farm-red font-semibold hover:text-farm-red-dark transition-colors"
             >
               Read our story
               <span aria-hidden>→</span>

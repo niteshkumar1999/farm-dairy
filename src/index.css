@@ -3,9 +3,9 @@
 @theme {
   --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Fraunces", ui-serif, Georgia, serif;
-  --color-farm-green: #2d5a27;
-  --color-farm-green-dark: #1e3d1a;
-  --color-farm-green-light: #4a7c43;
+  --color-farm-red: #c41e3a;
+  --color-farm-red-dark: #8b1529;
+  --color-farm-red-light: #e53935;
   --color-farm-cream: #faf7f2;
   --color-farm-warm: #f5efe6;
   --color-farm-gold: #c9a227;

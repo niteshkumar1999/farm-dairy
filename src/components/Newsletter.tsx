@@ -9,12 +9,12 @@ export default function Newsletter() {
   }
 
   return (
-    <section className="py-16 lg:py-20 bg-farm-green">
+    <section className="py-16 lg:py-20 bg-farm-red">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">
         <h2 className="font-serif text-3xl lg:text-4xl font-bold text-white mb-4">
           Get Healthy Living Tips & Festive Offers
         </h2>
-        <p className="text-green-100 mb-8">
+        <p className="text-red-100 mb-8">
           Join our newsletter for seasonal updates and special deals.
         </p>
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
@@ -28,7 +28,7 @@ export default function Newsletter() {
           />
           <button
             type="submit"
-            className="bg-farm-gold hover:bg-farm-gold-light text-farm-green-dark font-bold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap"
+            className="bg-farm-gold hover:bg-farm-gold-light text-farm-red-dark font-bold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap"
           >
             Subscribe
           </button>

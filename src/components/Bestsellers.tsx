@@ -30,10 +30,10 @@ export default function Bestsellers() {
     <section className="py-16 lg:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between mb-10">
-          <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-green-dark">
+          <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark">
             Bestsellers
           </h2>
-          <a href="#" className="text-farm-green font-semibold hover:text-farm-green-dark transition-colors">
+          <a href="#" className="text-farm-red font-semibold hover:text-farm-red-dark transition-colors">
             See all
           </a>
         </div>
@@ -52,12 +52,12 @@ export default function Bestsellers() {
                 />
               </div>
               <div className="p-5">
-                <h3 className="font-serif font-semibold text-lg text-farm-green-dark">{product.name}</h3>
+                <h3 className="font-serif font-semibold text-lg text-farm-red-dark">{product.name}</h3>
                 <p className="text-sm text-gray-500 mt-0.5">{product.subtitle}</p>
-                <p className="mt-3 font-bold text-farm-green text-lg">{product.price}</p>
+                <p className="mt-3 font-bold text-farm-red text-lg">{product.price}</p>
                 <button
                   type="button"
-                  className="mt-4 w-full bg-farm-green hover:bg-farm-green-dark text-white text-sm font-semibold py-2.5 rounded-full transition-colors"
+                  className="mt-4 w-full bg-farm-red hover:bg-farm-red-dark text-white text-sm font-semibold py-2.5 rounded-full transition-colors"
                 >
                   Add to Cart
                 </button>

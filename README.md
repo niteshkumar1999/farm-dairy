@@ -1,6 +1,6 @@
-# Vrindavan Farm — Website Clone
+# Nannu Farm — Website Clone
 
-A responsive clone of [Vrindavan Farm](https://www.vrindavan.farm/) — Fresh A2 Desi Cow Milk in Bengaluru.
+A responsive clone of [Nannu Farm](https://www.vrindavan.farm/) — Fresh A2 Desi Cow Milk in Bengaluru.
 
 ## Features
 

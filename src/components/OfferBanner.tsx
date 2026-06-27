@@ -1,9 +1,9 @@
 export default function OfferBanner() {
   return (
-    <div id="offers" className="bg-farm-green text-white py-2.5 px-4">
+    <div id="offers" className="bg-farm-red text-white py-2.5 px-4">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm text-center">
         <span>
-          <span className="inline-block bg-farm-gold text-farm-green-dark text-xs font-bold px-2 py-0.5 rounded mr-2">
+          <span className="inline-block bg-farm-gold text-farm-red-dark text-xs font-bold px-2 py-0.5 rounded mr-2">
             Offer
           </span>
           Try <strong>A2 Milk FREE for 5 Days</strong> — freshness delivered daily.

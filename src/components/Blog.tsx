@@ -20,7 +20,7 @@ export default function Blog() {
   return (
     <section className="py-16 lg:py-20 bg-farm-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-green-dark mb-10">
+        <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark mb-10">
           From the Blog
         </h2>
 
@@ -38,13 +38,13 @@ export default function Blog() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="font-serif font-semibold text-lg text-farm-green-dark mb-2 line-clamp-2">
+                <h3 className="font-serif font-semibold text-lg text-farm-red-dark mb-2 line-clamp-2">
                   {post.title}
                 </h3>
                 <p className="text-sm text-gray-500 mb-4">{post.description}</p>
                 <a
                   href="#"
-                  className="text-farm-green font-semibold text-sm hover:text-farm-green-dark transition-colors"
+                  className="text-farm-red font-semibold text-sm hover:text-farm-red-dark transition-colors"
                 >
                   Read more →
                 </a>

@@ -30,7 +30,7 @@ export default function FestivalSpecials() {
           </div>
 
           <div>
-            <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-green-dark mb-4">
+            <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark mb-4">
               Festival Specials
             </h2>
             <p className="text-gray-600 text-lg mb-8">
@@ -40,7 +40,7 @@ export default function FestivalSpecials() {
               {items.map((item) => (
                 <span
                   key={item}
-                  className="bg-farm-warm text-farm-green-dark font-medium px-4 py-2 rounded-full text-sm"
+                  className="bg-farm-warm text-farm-red-dark font-medium px-4 py-2 rounded-full text-sm"
                 >
                   {item}
                 </span>
@@ -48,7 +48,7 @@ export default function FestivalSpecials() {
             </div>
             <a
               href="#"
-              className="inline-flex items-center gap-2 bg-farm-green hover:bg-farm-green-dark text-white font-semibold px-7 py-3.5 rounded-full transition-colors"
+              className="inline-flex items-center gap-2 bg-farm-red hover:bg-farm-red-dark text-white font-semibold px-7 py-3.5 rounded-full transition-colors"
             >
               Browse Seasonal Catalog
             </a>

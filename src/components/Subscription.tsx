@@ -6,7 +6,7 @@ const benefits = [
 
 export default function Subscription() {
   return (
-    <section className="py-16 lg:py-20 bg-farm-green text-white overflow-hidden">
+    <section className="py-16 lg:py-20 bg-farm-red text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -16,16 +16,16 @@ export default function Subscription() {
             <ul className="space-y-4">
               {benefits.map((benefit) => (
                 <li key={benefit} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-farm-gold flex items-center justify-center text-farm-green-dark text-sm font-bold mt-0.5">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-farm-gold flex items-center justify-center text-farm-red-dark text-sm font-bold mt-0.5">
                     ✓
                   </span>
-                  <span className="text-green-100 text-lg">{benefit}</span>
+                  <span className="text-red-100 text-lg">{benefit}</span>
                 </li>
               ))}
             </ul>
             <a
               href="#app"
-              className="inline-flex mt-8 bg-farm-gold hover:bg-farm-gold-light text-farm-green-dark font-bold px-8 py-3.5 rounded-full transition-colors shadow-lg"
+              className="inline-flex mt-8 bg-farm-gold hover:bg-farm-gold-light text-farm-red-dark font-bold px-8 py-3.5 rounded-full transition-colors shadow-lg"
             >
               Start Your Subscription Today
             </a>
@@ -39,7 +39,7 @@ export default function Subscription() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -top-4 -right-4 bg-farm-gold text-farm-green-dark font-bold px-5 py-3 rounded-2xl shadow-xl text-sm">
+            <div className="absolute -top-4 -right-4 bg-farm-gold text-farm-red-dark font-bold px-5 py-3 rounded-2xl shadow-xl text-sm">
               Daily Delivery 🚚
             </div>
           </div>
