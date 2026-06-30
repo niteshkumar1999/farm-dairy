@@ -43,7 +43,7 @@ export default function Header() {
               href="#app"
               className="hidden sm:inline-flex items-center gap-2 bg-farm-red hover:bg-farm-red-dark text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors"
             >
-              Get the Appppppppppppppppppppppp
+              Get the App
             </a>
             <button
               type="button"
