@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-1">
             <div className="mb-4 flex items-center gap-3">
-              <Logo size="md" />
+              <Logo size="md" variant="circle" />
               <span className="font-serif font-bold text-white text-lg">Nannu Milk</span>
             </div>
        
