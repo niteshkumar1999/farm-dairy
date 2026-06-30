@@ -1,17 +1,17 @@
 const posts = [
   {
-    title: 'Why A2 Milk is Healthier than A1',
+    title: 'Why Nannu Milk is Healthier than other Milk',
     description: 'Understand the difference and benefits.',
     image: 'https://images.unsplash.com/photo-1550583724-db269cb88161?w=600&q=80',
   },
   {
     title: 'Traditional Ghee Making',
-    description: 'The bilona method explained.',
-    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=600&q=80',
+    description: 'The traditional way of making ghee explained.',
+    image: '//https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=600&q=80',
   },
   {
-    title: 'A2 Desi Cow Paneer: The Taste of Tradition and Health',
-    description: 'Understand why A2 heathiest choice for protein',
+    title: 'Nannu\'s Desi Cow Paneer: The Taste of Tradition and Health',
+    description: 'Understand why Desi Cow Paneer is the heathiest choice for protein',
     image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&q=80',
   },
 ]

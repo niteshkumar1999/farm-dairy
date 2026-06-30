@@ -11,13 +11,13 @@ const features = [
   },
   {
     icon: '🐄',
-    title: 'A2 Desi Breeds',
+    title: 'Nannu\'s Desi Breeds',
     description: 'Traditional Indian cows.',
   },
   {
     icon: '👨‍👩‍👧‍👦',
     title: 'Trusted by 1000+ Families',
-    description: 'Across Bangalore.',
+    description: 'Across Haryana.',
   },
 ]
 
@@ -26,7 +26,7 @@ export default function WhyChoose() {
     <section className="py-16 lg:py-20 bg-farm-warm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark text-center mb-12">
-          Why Choose Nannu Farm?
+          Why Choose Nannu Milk?
         </h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -24,8 +24,9 @@ export default function Newsletter() {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
             required
-            className="flex-1 px-5 py-3.5 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-farm-gold"
+            className="flex-1 px-5 py-3.5 rounded-full bg-white text-gray-800 border-2 border-farm-gold focus:outline-none focus:ring-2 focus:ring-farm-gold focus:border-farm-gold"
           />
+    
           <button
             type="submit"
             className="bg-farm-gold hover:bg-farm-gold-light text-farm-red-dark font-bold px-8 py-3.5 rounded-full transition-colors whitespace-nowrap"

@@ -6,7 +6,7 @@ export default function OfferBanner() {
           <span className="inline-block bg-farm-gold text-farm-red-dark text-xs font-bold px-2 py-0.5 rounded mr-2">
             Offer
           </span>
-          Try <strong>A2 Milk FREE for 5 Days</strong> — freshness delivered daily.
+          Try <strong>Nannu Milk FREE for 5 Days</strong> — freshness delivered daily.
         </span>
         <a
           href="#free-trial"

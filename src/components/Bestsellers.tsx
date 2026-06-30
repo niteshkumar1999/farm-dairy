@@ -1,6 +1,6 @@
 const products = [
   {
-    name: 'A2 Desi Cow Milk',
+    name: 'Desi Cow Milk',
     subtitle: '1L Daily Subscription',
     price: '₹45 / 500ml',
     image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80',
@@ -18,10 +18,10 @@ const products = [
     image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&q=80',
   },
   {
-    name: 'A2 Desi Cow Ghee',
+    name: 'Desi Cow Ghee',
     subtitle: '500ml Jar',
     price: '₹1199 / 500g',
-    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80',
+    image: '//https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80',
   },
 ]
 

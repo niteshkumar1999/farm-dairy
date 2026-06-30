@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Logo from './Logo'
 
 const navLinks = [
   { label: 'Products', href: '#products' },
@@ -16,16 +17,13 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-red-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 rounded-full bg-farm-red flex items-center justify-center">
-              <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C8 2 5 5 5 9c0 3 1.5 5.5 4 7v4h6v-4c2.5-1.5 4-4 4-7 0-4-3-7-7-7zm0 2c2.8 0 5 2.2 5 5 0 2.2-1 4-3 5.2V18h-4v-3.8C8 13 7 11.2 7 9c0-2.8 2.2-5 5-5z"/>
-              </svg>
-            </div>
-            <div>
+          <a href="#" className="flex items-center group">
+            <Logo size="sm" />
+            <div className="ml-2">
               <span className="font-serif font-bold text-farm-red text-lg leading-tight block">NANNU</span>
-              <span className="text-xs text-farm-red-light tracking-widest font-medium">FARM</span>
+              <span className="text-xs text-farm-red-light tracking-widest font-medium">MILK</span>
             </div>
+       
           </a>
 
           <nav className="hidden lg:flex items-center gap-7">

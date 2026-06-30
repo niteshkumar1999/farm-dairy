@@ -13,7 +13,7 @@ export default function About() {
 
           <div>
             <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark mb-6">
-              About Nannu Farm
+              About Nannu Milk
             </h2>
             <p className="text-gray-600 leading-relaxed text-lg">
               Our cows graze freely on natural fodder, ensuring purity and vitality in every drop

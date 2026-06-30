@@ -1,6 +1,6 @@
 const categories = [
   {
-    name: 'A2 Desi Cow Milk',
+    name: 'Nannu\'s Desi Cow Milk',
     description: 'Daily fresh, doorstep delivery',
     image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80',
     emoji: '🥛',
@@ -18,9 +18,9 @@ const categories = [
     emoji: '🧀',
   },
   {
-    name: 'A2 Ghee',
+    name: 'Nannu\'s Desi Cow Ghee',
     description: 'Traditional bilona method',
-    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80',
+    image: '//https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80',
     emoji: '🫙',
   },
 ]

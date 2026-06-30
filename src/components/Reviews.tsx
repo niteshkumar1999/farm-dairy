@@ -2,19 +2,19 @@ const reviews = [
   {
     name: 'Priya S.',
     rating: 5,
-    text: 'The A2 milk tastes so pure and fresh! My kids love it. Delivery is always on time every morning.',
+    text: 'The Nannu Milk tastes so pure and fresh! My kids love it. Delivery is always on time every morning.',
     source: 'Google Play Store',
   },
   {
     name: 'Rajesh K.',
     rating: 5,
-    text: 'Best ghee I have ever tasted. You can tell it is made the traditional way. Highly recommend Nannu Farm.',
+    text: 'Best ghee I have ever tasted. You can tell it is made the traditional way. Highly recommend Nannu\'s Desi Cow Ghee.',
     source: 'Google Play Store',
   },
   {
     name: 'Ananya M.',
     rating: 5,
-    text: 'Switched to Nannu Farm 6 months ago and never looked back. The subscription is so convenient.',
+    text: 'Switched to Nannu\'s Desi Cow Milk 6 months ago and never looked back. The subscription is so convenient.',
     source: 'Google Play Store',
   },
 ]
@@ -24,7 +24,7 @@ export default function Reviews() {
     <section className="py-16 lg:py-20 bg-farm-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark text-center mb-4">
-          See why 1000+ families trust Nannu Farm
+          See why 1000+ families trust Nannu Milk
         </h2>
         <p className="text-center text-gray-500 mb-12">Review from Google Play Store</p>
 

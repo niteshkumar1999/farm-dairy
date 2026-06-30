@@ -11,8 +11,8 @@ export default function Hero() {
           <div>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-farm-red-dark leading-tight">
               Pure{' '}
-              <span className="text-farm-red">A2 Desi Cow Milk</span>
-              {' '}& Farm-Fresh Products, Delivered Daily in Bangalore.
+              <span className="text-farm-red">Nannu's Desi Cow Milk</span>
+              {' '}& Farm-Fresh Products, Delivered Daily in Haryana.
             </h1>
             <p className="mt-6 text-lg text-gray-600 max-w-lg">
               No Adulteration. No Hormones. Just Freshness.
@@ -39,13 +39,13 @@ export default function Hero() {
                   className="h-12"
                 />
               </a>
-              <a href="#" className="opacity-80 hover:opacity-100 transition-opacity">
+              {/* <a href="#" className="opacity-80 hover:opacity-100 transition-opacity">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
                   alt="Download on the App Store"
                   className="h-12"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -53,13 +53,13 @@ export default function Hero() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-red-900/20 aspect-[4/3]">
               <img
                 src="https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=800&q=80"
-                alt="A2 Desi Cow Milk"
+                alt="Nannu's Desi Cow Milk"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-farm-red-dark/40 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <span className="inline-block bg-white/95 text-farm-red font-semibold px-4 py-2 rounded-full text-sm shadow-lg">
-                  🥛 A2 Milk
+                  🥛 Nannu's Desi Cow Milk
                 </span>
               </div>
             </div>

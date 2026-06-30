@@ -5,10 +5,10 @@ export default function FreeTrialCTA() {
         <div className="bg-white rounded-3xl shadow-xl p-10 lg:p-14 border border-red-100">
           <span className="inline-block text-5xl mb-4">🥛</span>
           <h2 className="font-serif text-3xl lg:text-4xl font-bold text-farm-red-dark mb-4">
-            Try A2 Desi Cow Milk FREE for 5 Days!
+            Try Desi Cow Milk FREE for 5 Days!
           </h2>
           <p className="text-gray-600 mb-8 max-w-lg mx-auto">
-            Experience the pure taste of farm-fresh A2 milk delivered to your doorstep every morning.
+            Experience the pure taste of farm-fresh Nannu milk delivered to your doorstep every morning.
           </p>
           <a
             href="#app"
